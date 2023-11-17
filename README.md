@@ -4,6 +4,9 @@ import numpy as np
 from scipy.signal import stft, istft, butter, lfilter
 import yfinance as yf
 from datetime import datetime
+# Các thư viện cần cài đặt để chạy chương trình 
+pip install pandas matplotlib numpy scipy yfinance git+https://github.com/ranaroussi/yfinance.git requests
+
 
 # Hàm để lấy dữ liệu cổ phiếu theo thời gian thực
 def get_real_time_data(symbol):
